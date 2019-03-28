@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_40"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/sou1"
+        android:layout_width="@dimen/dp_24"
+        android:layout_height="@dimen/dp_24"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_15"
+        android:layout_marginTop="@dimen/dp_8"
+        android:background="@mipmap/common_nav_btn_back_n_xhdpi" />
+
+    <EditText
+        android:id="@+id/serachview1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="9"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:paddingLeft="@dimen/dp_12"
+        android:background="@drawable/sousuo"
+         />
+    <Button
+        android:id="@+id/kuang1"
+        android:layout_width="@dimen/dp_38"
+        android:gravity="center"
+        android:layout_height="@dimen/dp_40"
+        android:background="#00ffffff"
+        android:textSize="@dimen/sp_16"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_marginRight="@dimen/dp_20"
+        android:text="搜索" />
+
+</LinearLayout>
